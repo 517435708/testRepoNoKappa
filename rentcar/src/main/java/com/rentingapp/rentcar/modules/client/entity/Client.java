@@ -1,4 +1,4 @@
-package com.rentingapp.rentcar.modules.client;
+package com.rentingapp.rentcar.modules.client.entity;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -11,9 +11,8 @@ public class Client
 {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) public int clientId;
-
-    public String firstName;
-    public String surname;
+    private String firstName;
+    private String surname;
     @GeneratedValue(strategy = GenerationType.AUTO)
-    public boolean renting = false; //one client can rent only one car
+    private boolean renting = false; //one client can rent only one car
 }

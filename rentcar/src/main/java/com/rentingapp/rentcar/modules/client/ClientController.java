@@ -1,6 +1,6 @@
 package com.rentingapp.rentcar.modules.client;
 
-import com.rentingapp.rentcar.modules.car.Car;
+import com.rentingapp.rentcar.modules.client.entity.Client;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,14 +1,12 @@
 package com.rentingapp.rentcar.modules.car;
 
-import org.hibernate.action.internal.EntityActionVetoException;
+import com.rentingapp.rentcar.modules.car.entity.Car;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
-import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import javax.persistence.EntityNotFoundException;
 import java.util.NoSuchElementException;
 
 @Service
